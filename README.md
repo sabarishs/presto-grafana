@@ -15,7 +15,7 @@ This datasource allows Presto to be used as a datasource in Grafana. It is heavi
 * Copy the whole presto-grafana dir into the Grafana plugins dir ( /usr/local/var/lib/grafana/plugins )
 * Restart the Grafana server. If installed via Homebrew, this will be `brew services restart grafana`
 
-### Install and Start the MongoDB proxy server
+### Install and Start the Presto proxy server
 
 * Open a command prompt in the presto-grafana directory
 * Run `npm install` to install the node.js dependencies
