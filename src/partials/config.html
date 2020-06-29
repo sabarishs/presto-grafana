@@ -1,0 +1,41 @@
+<datasource-http-settings current="ctrl.current">
+</datasource-http-settings>
+
+<h3 class="page-heading">Presto details</h3>
+
+<div class="gf-form-group">
+	<div class="gf-form-inline">
+		<div class="gf-form">
+			<span class="gf-form-label width-10">Presto URL</span>
+			<input class="gf-form-input width-30" type="text"
+				ng-model='ctrl.current.jsonData.presto_url'
+				placeholder="presto" required>
+			</input>
+		</div>
+		
+		<div class="gf-form">
+      <span class="gf-form-label width-10">Presto Port</span>
+      <input class="gf-form-input width-30" type="text"
+        ng-model='ctrl.current.jsonData.presto_port'
+        placeholder="kudu" required>
+      </input>
+    </div>
+
+		<div class="gf-form">
+			<span class="gf-form-label width-10">Presto Catalog</span>
+			<input class="gf-form-input width-30" type="text"
+				ng-model='ctrl.current.jsonData.presto_catalog'
+				placeholder="kudu" required>
+			</input>
+		</div>
+		
+		<div class="gf-form">
+      <span class="gf-form-label width-10">Presto Schema</span>
+      <input class="gf-form-input width-30" type="text"
+        ng-model='ctrl.current.jsonData.presto_schema'
+        placeholder="default" required>
+      </input>
+    </div>
+	</div>
+</div>
+

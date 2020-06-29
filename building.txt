@@ -1,0 +1,12 @@
+Building:
+---------
+npm install
+grunt
+npm run server
+
+Deploying to grafana:
+---------------------
+cd /usr/local/var/lib/grafana/plugins
+OABLN1147-2:plugins ssasidharan$ rm -rf presto-grafana/
+OABLN1147-2:plugins ssasidharan$ cp -R /Users/ssasidharan/eclipse-2020-wsp/presto-grafana/dist presto-grafana
+OABLN1147-2:plugins ssasidharan$ brew services restart grafana

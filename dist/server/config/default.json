@@ -1,0 +1,10 @@
+{
+    "server": 
+    {
+      "port": 6666,
+      "logRequests": true,
+      "logQueries": true,
+      "logTimings": true
+    }
+}
+  

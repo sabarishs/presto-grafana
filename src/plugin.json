@@ -1,0 +1,34 @@
+{
+  "name": "Presto",
+  "id": "grafana-presto-datasource",
+  "type": "datasource",
+
+  "partials": {
+    "config": "public/app/plugins/datasource/simplejson/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "Presto datasource",
+    "author": {
+      "name": "Sabarish Sasidharan"
+    },
+    "logos": {
+      "small": "img/presto.png",
+      "large": "img/presto.png"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
+      {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
+    ],
+    "version": "0.8.1",
+    "updated": "2020-06-29"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
