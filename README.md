@@ -25,12 +25,12 @@ This datasource allows Presto to be used as a datasource in Grafana. It is heavi
 
 Create a new data source of type Presto as shown below. The Presto details are :
 
-* **Presto URL** - `presto`
+* **Presto URL** - Provide the host name for presto. For ex `presto`
 * **Presto Catalog** - `kudu`
 * **Presto Schema** - `default`
 
 For Presto URL you shouldn't specify anything other than host name (no port, no http/https etc)
-Note that port is hardcoded to 8080 right now
+Note that port is hardcoded to 8080 right now. So anything entered in page is not used.
 
 <img src="src/img/datasource.png" alt="Sample Data Source" style="width: 500px;"/>
 
