@@ -1,7 +1,7 @@
 # Presto datasource for Grafana
 
 ## Features
-This datasource allows Presto to be used as a datasource in Grafana. It is heavily and owes it to JamesOsgood's MongoDB datasource for Grafana (https://github.com/JamesOsgood/mongodb-grafana). This was literally implemented and tested in 4 hours by modifying JamesOsGood's datasource source code. Also note that the code is pretty rudimentary right now and depends on a lot of ifs and buts. For timeseries queries, the time is auto-generated as currently my sole purpose is to use it for non-timeseries display in Grafana. This will be corrected soon.
+This datasource allows Presto to be used as a datasource in Grafana. It is heavily and owes it to JamesOsgood's MongoDB datasource for Grafana (https://github.com/JamesOsgood/mongodb-grafana). This was literally implemented and tested in a couple hours by modifying JamesOsGood's datasource source code. Also note that the code is pretty rudimentary right now and depends on a lot of ifs and buts. For timeseries queries, the time is auto-generated as currently my sole purpose is to use it for non-timeseries display in Grafana. This will be corrected soon.
 
 ## Requirements
 
